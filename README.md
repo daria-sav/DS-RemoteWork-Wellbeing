@@ -6,7 +6,7 @@ Mental Health Impact of Remote Work
 
 Daria Savtšenko, Anton Voronkov, Elisabeth Serikova
 
-**Database:**
+**Dataset:**
 
 https://www.kaggle.com/datasets/waqi786/remote-work-and-mental-health/data
 
