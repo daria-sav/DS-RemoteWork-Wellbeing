@@ -1,8 +1,8 @@
-# Project Title: 
+## Project Title: 
 Mental Health Impact of Remote Work
-# Team Members: 
+## Team Members: 
 Daria Savtšenko, Anton Voronkov, Elisabeth Serikova
-# Database:
+## Database:
 https://www.kaggle.com/datasets/waqi786/remote-work-and-mental-health/data
 
 - Step 1: Preparation
