@@ -1,26 +1,27 @@
 **Project Title:**
 
 Mental Health Impact of Remote Work
-## Team Members: 
+**Team Members:**
 
 Daria Savtšenko, Anton Voronkov, Elisabeth Serikova
-## Database:
+**Database:**
 
 https://www.kaggle.com/datasets/waqi786/remote-work-and-mental-health/data
-## Project Description
+**Project Description**
 
 This project analyzes the impact of remote work on mental health using a dataset from Kaggle. The dataset includes information on demographics, work conditions, and mental health metrics of remote workers. The project aims to identify key factors influencing mental health in remote work settings and provide actionable recommendations for employers to promote employee well-being.
 
-## Motivation and Goal
+**Motivation and Goal**
 
-Remote work has become increasingly prevalent, especially after the COVID-19 pandemic. While offering flexibility and benefits, it also presents challenges to mental health. This project aims to analyze these challenges and provide insights for improving remote work environments.
+Remote work is becoming more common, especially in the wake of the COVID-19 pandemic. While it offers flexibility and benefits, it also poses mental health challenges. This project aims to analyze these problems so that by identifying them, people can get out of the risk group.
 
-## Project Goals
+**Project Goals**
 
 - Identify key factors influencing the mental health of remote workers.
 - Identify groups that are least and most satisfied with the remote work experience.
 - Create a visualization of stress levels associated with remote work across different professions.
 
+**Guide to setting up the model**
 - Step 1: Preparation
 
 - Make sure you have Python installed on your computer. If not, download it from the official website (python.org) and install it.
