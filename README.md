@@ -1,22 +1,25 @@
 ## Project Title: 
+
 Mental Health Impact of Remote Work
 ## Team Members: 
+
 Daria Savtšenko, Anton Voronkov, Elisabeth Serikova
 ## Database:
+
 https://www.kaggle.com/datasets/waqi786/remote-work-and-mental-health/data
 ## Project Description
+
 This project analyzes the impact of remote work on mental health using a dataset from Kaggle. The dataset includes information on demographics, work conditions, and mental health metrics of remote workers. The project aims to identify key factors influencing mental health in remote work settings and provide actionable recommendations for employers to promote employee well-being.
 
-## Project Goals
-Goal 1: Identify key factors influencing the mental health of remote workers.
-This will allow to develop recommendations for improving working conditions and preventing mental illness.
-Goal 2: Identify groups that are least and most satisfied with the remote work experience.
-This can help determine which types of workers need additional support and which practices promote employee well-being.
-Goal 3: Create a visualization of stress levels associated with remote work across different professions.
-* Identify key factors influencing the mental health of remote workers.
-* Develop actionable recommendations for employers to mitigate stress and prevent mental health issues in remote employees.
-* Understand the demographics and professional groups that are most and least satisfied with remote work.
+## Motivation and Goal
 
+Remote work has become increasingly prevalent, especially after the COVID-19 pandemic. While offering flexibility and benefits, it also presents challenges to mental health. This project aims to analyze these challenges and provide insights for improving remote work environments.
+
+## Project Goals
+
+- Identify key factors influencing the mental health of remote workers.
+- Identify groups that are least and most satisfied with the remote work experience.
+- Create a visualization of stress levels associated with remote work across different professions.
 
 - Step 1: Preparation
 
