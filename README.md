@@ -1,4 +1,4 @@
-** Project Title: **
+**Project Title:**
 
 Mental Health Impact of Remote Work
 ## Team Members: 
