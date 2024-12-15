@@ -54,5 +54,32 @@ input_df = pd.DataFrame([user_input], columns=feature_names)
 # Make a prediction
 predicted_condition = model.predict(input_df)[0]
 
-# Output the result
+# Analyze feature importances
+feature_importances = model.feature_importances_
+importance_df = pd.DataFrame({'Feature': feature_names, 'Importance': feature_importances})
+importance_df = importance_df.sort_values(by='Importance', ascending=False)
+
+# Provide personalized suggestions
 print(f"\nPredicted Mental Health Condition: {predicted_condition}")
+print("\nSuggestions to Improve Mental Health:")
+
+if predicted_condition in ['Bad', 'Very Bad']:
+    # Provide specific recommendations for critical conditions
+    top_features = importance_df.head(5)['Feature'].values
+    for feature in top_features:
+        if feature == 'Work_Life_Balance_Rating':
+            print("- Consider improving your work-life balance by setting boundaries and prioritizing rest.")
+        elif feature == 'Stress_Level':
+            print("- Engage in stress-reducing activities like meditation, exercise, or counseling.")
+        elif feature == 'Access_to_Mental_Health_Resources':
+            print("- Ensure access to mental health resources. Speak to your employer or seek local resources.")
+        elif feature == 'Physical_Activity':
+            print("- Incorporate regular physical activity into your routine to improve overall well-being.")
+        elif feature == 'Sleep_Quality':
+            print("- Focus on improving sleep quality by maintaining a consistent sleep schedule.")
+else:
+    print("- Your mental health condition seems stable. Continue maintaining healthy habits!")
+
+# Show the top contributing features
+print("\nTop Features Influencing Prediction:")
+print(importance_df.head())
